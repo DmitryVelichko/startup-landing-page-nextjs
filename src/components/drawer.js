@@ -21,8 +21,20 @@ export default function Drawer ({
       <RcDrawer
         open={open}
         onClose={toggleHandler}
+        className={`drawer ${className || ''}`.trim()}
+        width={width}
+        placement={placement}
+        handler={false}
+        level={null}
+        duration={'0.4s'}
+        {...props}
       >
-
+        {closeButton && (
+          <Box as='div' onClick={toggleHandler} sx={closeBtnStyle}>
+            {closeButton}
+          </Box>
+        )}
+        <Box sx={drawerStyle}>{children}</Box>
       </RcDrawer>
     </Fragment>
   );
