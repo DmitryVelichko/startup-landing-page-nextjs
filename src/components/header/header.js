@@ -9,7 +9,9 @@ import menuItems from './header.data';
 
 export default function Header({ className }) {
   return (
-      <h1>Header</h1>
+      <header sx={styles.header} className={className}>
+
+      </header>
   );
 }
 
