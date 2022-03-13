@@ -16,17 +16,20 @@ export default function Header({ className }) {
             {menuItems.map((menuItem, i) => (
               <Link 
                 activeClass='active'
-                to={path}
+                to={menuItem.path}
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 key={i}
               >
-
+                {menuItem.label}
               </Link>
             ))}
           </Flex>
+          <Button className='donate__btn' variant='secondary' aria-label='Get Started'>
+
+          </Button>
         </Container>
       </header>
   );
