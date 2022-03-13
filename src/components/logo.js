@@ -7,10 +7,14 @@ export default function Logo({ src, ...rest }) {
     <Link
       path='/'
       sx={{
-        variant: 'links.logo'
+        variant: 'links.logo',
+        display: 'flex',
+        cursor: 'pointer',
+        mr: 15,
       }}
+      {...rest}
       >
-        
+
     </Link>
   );
 }
