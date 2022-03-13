@@ -14,7 +14,12 @@ export default function Header({ className }) {
           <Logo src={LogoDark} />
           <Flex as='nav' sx={styles.nav}>
             {menuItems.map((menuItem, i) => (
-              <Link activeClass='active'>
+              <Link 
+                activeClass='active'
+                to={path}
+                spy={true}
+                smooth={true}
+              >
 
               </Link>
             ))}
