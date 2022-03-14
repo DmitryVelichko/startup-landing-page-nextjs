@@ -23,6 +23,8 @@ export default function MobileDrawer() {
             <Box sx={StyleSheet.handler}>
                 <IoMdMenu size='26px' />
             </Box>
+            open={isDrawerOpen}
+            toggleHandler={() => setIsDrawerOpen((prevState) => !prevState)}
         }
         </Drawer>
     )
