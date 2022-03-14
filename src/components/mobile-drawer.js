@@ -32,6 +32,25 @@ export default function MobileDrawer() {
         </Drawer>
     )
 
+        <Scrollbars autoHide>
+            <Box sx={styles.content}>
+                <Box sx={styles.menu}>
+                    {menuItems.map((menuItem, i) => (
+                        <Link
+                            activeClass='active'
+                            to={menuItem.path}
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            key={i}
+                        >
+                        </Link>
+                    ))}
+                </Box>
+            </Box>
+
+        
     const styles = {
         handler: {
             display: 'flex',
