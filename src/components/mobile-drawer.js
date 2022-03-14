@@ -25,6 +25,9 @@ export default function MobileDrawer() {
             </Box>
             open={isDrawerOpen}
             toggleHandler={() => setIsDrawerOpen((prevState) => !prevState)}
+            drawerStyle={styles.drawer}
+            closeBtnStyle={styles.close}
+            closeButton={<IoMdClose size='24px' color='#000000'}
         }
         </Drawer>
     )
