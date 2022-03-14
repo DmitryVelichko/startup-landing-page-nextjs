@@ -1,2 +1,6 @@
-import React, {useState} from 'react'
-import { Box } from 'theme-ui'
+import React, { useState } from 'react';
+import { Box } from 'theme-ui';
+
+const social = [
+    { path: '/', icon: <FaFacebookf /> }
+];
