@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Box } from 'theme-ui';
 import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
+import {IoMdClose, IoMdMenu} from 'react-icons/io';
 
 const social = [
     { path: '/', icon: <FaFacebookf /> }
@@ -13,13 +14,14 @@ export default function MobileDrawer() {
     const [isDreawerOpen, setIsDrawerOpen] = useState();
 
     return (
-        <Drawer
+        <Drawer>
         width='320px'
         drawerHandler={
             <Box sx={StyleSheet.handler}>
                 <IoMdMenu size='26px' />
             </Box>
         }
+        </Drawer>
     )
 
     const styles = {
@@ -29,6 +31,4 @@ export default function MobileDrawer() {
             justifyContent: 'center',
         }
     }
-
-
 }
