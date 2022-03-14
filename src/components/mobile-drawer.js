@@ -20,6 +20,13 @@ export default function MobileDrawer() {
         }
     )
 
+    const styles = {
+        handler: {
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+        }
+    }
 
 
 }
