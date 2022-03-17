@@ -1,8 +1,11 @@
 import React from 'react'
+import styled from 'styled-components'
 
 function Section() {
   return (
-    <div>Section</div>
+    <Wrap>
+        Section
+    </Wrap>
   )
 }
 
