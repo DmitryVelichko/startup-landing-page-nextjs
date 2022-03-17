@@ -4,7 +4,9 @@ import styled from 'styled-components'
 function Section() {
   return (
     <Wrap>
-        Section
+        <ItemText>
+            <h1>Model S</h1>
+        </ItemText>
     </Wrap>
   )
 }
@@ -16,5 +18,6 @@ const Wrap = styled.div`
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-image: url('/images/model-s.jpg');
 `
