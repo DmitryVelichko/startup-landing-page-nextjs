@@ -49,6 +49,8 @@ const LeftButton = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 100px;
+  opacity: 0.85;
+  text-transform: uppercase;
 `
 
 const RightButton = styled(LeftButton)`
