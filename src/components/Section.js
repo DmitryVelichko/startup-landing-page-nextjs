@@ -8,6 +8,14 @@ function Section() {
             <h1>Model S</h1>
             <p>Order Online for Touchless Delivery</p>
         </ItemText>
+        <ButtonGroup>
+          <LeftButton>
+
+          </LeftButton>
+          <RightButton>
+            
+          </RightButton>
+        </ButtonGroup>
     </Wrap>
   )
 }
