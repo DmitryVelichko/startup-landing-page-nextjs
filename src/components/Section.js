@@ -31,6 +31,8 @@ const Wrap = styled.div`
     background-image: url('/images/model-s.jpg');
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 `
 
 const ItemText = styled.div`
