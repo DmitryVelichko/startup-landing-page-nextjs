@@ -37,7 +37,7 @@ const ItemText = styled.div`
 `
 
 const ButtonGroup = styled.div`
-
+  display: flex;
 `
 
 const LeftButton = styled.div`
@@ -51,6 +51,7 @@ const LeftButton = styled.div`
   border-radius: 100px;
   opacity: 0.85;
   text-transform: uppercase;
+  font-size: 12px;
 `
 
 const RightButton = styled(LeftButton)`
