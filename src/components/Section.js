@@ -45,6 +45,8 @@ const LeftButton = styled.div`
   height: 40px;
   width: 256px;
   color: white;
+  display: flex;
+  justify-content: center;
 `
 
 const RightButton = styled(LeftButton)`
