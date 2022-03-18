@@ -29,6 +29,8 @@ const Wrap = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('/images/model-s.jpg');
+    display: flex;
+    flex-direction: column;
 `
 
 const ItemText = styled.div`
