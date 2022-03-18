@@ -10,10 +10,10 @@ function Section() {
         </ItemText>
         <ButtonGroup>
           <LeftButton>
-
+            Custom Order    
           </LeftButton>
           <RightButton>
-            
+            Existing Inventory
           </RightButton>
         </ButtonGroup>
     </Wrap>
