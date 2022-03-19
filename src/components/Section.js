@@ -67,4 +67,5 @@ const RightButton = styled(LeftButton)`
 
 const DownArrow = styled.img`
   margin-top: 20px;
+  height: 40px;
 `
