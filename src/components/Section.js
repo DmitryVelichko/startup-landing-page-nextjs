@@ -61,7 +61,8 @@ const LeftButton = styled.div`
 `
 
 const RightButton = styled(LeftButton)`
-
+  background: white;
+  
 `
 
 const DownArrow = styled.img`
