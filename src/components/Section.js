@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-function Section({title, description}) {
+function Section({title, description, backgroundImg, leftBtnText, rightBtnText}) {
   return (
     <Wrap>
       <ItemText>
@@ -10,8 +10,8 @@ function Section({title, description}) {
       </ItemText>
       <Buttons>
         <ButtonGroup>
-          <LeftButton>Custom Order</LeftButton>
-          <RightButton>Existing Inventory</RightButton>
+          <LeftButton>{leftBtnText}</LeftButton>
+          <RightButton>{rightBtnText}</RightButton>
         </ButtonGroup>
         <DownArrow src='/images/down-arrow.svg' />
       </Buttons>
