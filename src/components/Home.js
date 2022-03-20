@@ -9,6 +9,7 @@ function Home() {
         title='Model S'
         description='Order Online for Touchless Delivery'  
         backgroundImg='model-s.jpg'
+        leftBtnText='Custom Order'
       />
       <Section />
       <Section />
