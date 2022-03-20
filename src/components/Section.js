@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 function Section({title, description, backgroundImg, leftBtnText, rightBtnText}) {
   return (
-    <Wrap>
+    <Wrap bgImage={backgroundImg}>
       <ItemText>
         <h1>{title}</h1>
         <p>{description}</p>
@@ -32,6 +32,7 @@ const Wrap = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-image: ${props => `url("/images/${props.bgImage}")`}
 `
 
 const ItemText = styled.div`
