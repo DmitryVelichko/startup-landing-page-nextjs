@@ -26,7 +26,13 @@ function Home() {
         leftBtnText='Custom Order'
         rightBtnText='Existing Inventory'
       />
-      <Section />
+      <Section 
+        title='Model X'
+        description='Order Online for Touchless Delivery'  
+        backgroundImg='model-x.jpg'
+        leftBtnText='Custom Order'
+        rightBtnText='Existing Inventory'
+      />
     </Container>
   );
 }
