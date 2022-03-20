@@ -8,6 +8,7 @@ function Home() {
       <Section 
         title='Model S'
         description='Order Online for Touchless Delivery'  
+        backgroundImg='model-s.jpg'
       />
       <Section />
       <Section />
