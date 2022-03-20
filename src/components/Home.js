@@ -19,7 +19,11 @@ function Home() {
         leftBtnText='Custom Order'
         rightBtnText='Existing Inventory'
       />
-      <Section />
+       <Section 
+        title='Model 3'
+        description='Order Online for Touchless Delivery'  
+       
+      />
       <Section />
     </Container>
   );
