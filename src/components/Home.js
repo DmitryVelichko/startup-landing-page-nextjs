@@ -12,9 +12,13 @@ function Home() {
         leftBtnText='Custom Order'
         rightBtnText='Existing Inventory'
       />
-      {/* <Section />
+      <Section 
+        title='Model Y'
+        description='Order Online for Touchless Delivery'  
+        
+      />
       <Section />
-      <Section /> */}
+      <Section />
     </Container>
   );
 }
