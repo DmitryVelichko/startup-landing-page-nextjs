@@ -12,9 +12,9 @@ function Home() {
         leftBtnText='Custom Order'
         rightBtnText='Existing Inventory'
       />
+      {/* <Section />
       <Section />
-      <Section />
-      <Section />
+      <Section /> */}
     </Container>
   );
 }
