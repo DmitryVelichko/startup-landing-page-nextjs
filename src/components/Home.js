@@ -36,7 +36,8 @@ function Home() {
       <Section 
         title='Lowest Cost Solar Panels in America'
         description='Money-back guarantee'  
-     
+        backgroundImg='solar-panel.jpg'
+      
       />
     </Container>
   );
