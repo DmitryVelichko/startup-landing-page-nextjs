@@ -38,7 +38,7 @@ function Home() {
         description='Money-back guarantee'  
         backgroundImg='solar-panel.jpg'
         leftBtnText='Order Now'
-  
+        rightBtnText='Learn More'
       />
     </Container>
   );
