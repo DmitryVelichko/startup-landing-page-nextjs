@@ -37,7 +37,8 @@ function Home() {
         title='Lowest Cost Solar Panels in America'
         description='Money-back guarantee'  
         backgroundImg='solar-panel.jpg'
-      
+        leftBtnText='Order Now'
+  
       />
     </Container>
   );
