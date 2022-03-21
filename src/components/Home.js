@@ -33,6 +33,10 @@ function Home() {
         leftBtnText='Custom Order'
         rightBtnText='Existing Inventory'
       />
+      <Section 
+        title='Lowest Cost Solar Panels in America'
+        
+      />
     </Container>
   );
 }
