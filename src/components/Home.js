@@ -43,7 +43,8 @@ function Home() {
       <Section 
         title='Solar for New Roofs'
         description='Solar Roof Costs Less Than a New Roof'  
-        
+        backgroundImg='solar-roof.jpg'
+       
       />
     </Container>
   );
