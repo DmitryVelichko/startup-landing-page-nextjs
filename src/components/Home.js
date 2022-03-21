@@ -35,7 +35,8 @@ function Home() {
       />
       <Section 
         title='Lowest Cost Solar Panels in America'
-        
+        description='Money-back guarantee'  
+     
       />
     </Container>
   );
