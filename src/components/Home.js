@@ -45,7 +45,7 @@ function Home() {
         description='Solar Roof Costs Less Than a New Roof'  
         backgroundImg='solar-roof.jpg'
         leftBtnText='Order Now'
-       
+        rightBtnText='Learn More'
       />
     </Container>
   );
