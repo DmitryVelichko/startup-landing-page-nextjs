@@ -40,6 +40,10 @@ function Home() {
         leftBtnText='Order Now'
         rightBtnText='Learn More'
       />
+      <Section 
+        title='Solar for New Roofs'
+        
+      />
     </Container>
   );
 }
