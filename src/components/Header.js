@@ -8,7 +8,8 @@ function Header() {
         <img src="/images/logo.svg" alt="tesla"/>
       </a>
       <Menu>
-
+        <p><a href="#">Model S</a></p>
+       
       </Menu>
     </Container>
   )
