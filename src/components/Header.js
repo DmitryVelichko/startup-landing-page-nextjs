@@ -30,4 +30,9 @@ const Container = styled.div`
 const Menu = styled.div`
   display: flex;
   align-items: center;
+
+  p {
+    font-weight: 600;
+    text-decoration: uppercase;
+  }
 `
