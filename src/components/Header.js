@@ -10,7 +10,8 @@ function Header() {
       <Menu>
         <p><a href="#">Model S</a></p>
         <p><a href="#">Model 3</a></p>
-    
+        <p><a href="#">Model X</a></p>
+       
       </Menu>
     </Container>
   )
