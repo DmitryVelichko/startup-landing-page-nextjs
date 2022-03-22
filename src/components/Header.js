@@ -9,7 +9,8 @@ function Header() {
       </a>
       <Menu>
         <p><a href="#">Model S</a></p>
-       
+        <p><a href="#">Model 3</a></p>
+    
       </Menu>
     </Container>
   )
