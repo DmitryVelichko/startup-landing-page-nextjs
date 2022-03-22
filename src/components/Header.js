@@ -28,5 +28,6 @@ const Container = styled.div`
 `
 
 const Menu = styled.div`
-
+  display: flex;
+  align-items: center;
 `
