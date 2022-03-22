@@ -7,6 +7,9 @@ function Header() {
       <a>
         <img src="/images/logo.svg" alt="tesla"/>
       </a>
+      <Menu>
+
+      </Menu>
     </Container>
   )
 }
@@ -14,5 +17,10 @@ function Header() {
 export default Header
 
 const Container = styled.div`
+  min-height: 60px;
+  position: fixed;
+`
+
+const Menu = styled.div`
 
 `
