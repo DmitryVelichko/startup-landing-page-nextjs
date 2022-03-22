@@ -3,8 +3,14 @@ import styled from 'styled-components'
 
 function Header() {
   return (
-    <div>Header</div>
+    <Container>
+      
+    </Container>
   )
 }
 
 export default Header
+
+const Container = styled.div`
+
+`
