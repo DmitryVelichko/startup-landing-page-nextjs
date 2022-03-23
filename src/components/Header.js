@@ -50,4 +50,8 @@ const Menu = styled.div`
   }
 `
 const RightMenu = styled.div`
+  a {
+    font-weight: 600;
+   
+  }
 `
