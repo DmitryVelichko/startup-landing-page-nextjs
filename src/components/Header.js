@@ -15,6 +15,7 @@ function Header() {
       </Menu>
       <RightMenu>
         <a href="#">Shop</a>
+        <a href="#">Tesla Account</a>
       </RightMenu>
       
 
