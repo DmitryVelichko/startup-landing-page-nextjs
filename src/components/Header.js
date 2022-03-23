@@ -17,6 +17,7 @@ function Header() {
       <RightMenu>
         <a href="#">Shop</a>
         <a href="#">Tesla Account</a>
+        <CustomMenu />
       </RightMenu>
       
 
@@ -51,9 +52,16 @@ const Menu = styled.div`
   }
 `
 const RightMenu = styled.div`
+  display: flex;
+  align-items: center;
+
   a {
     font-weight: 600;
     text-transform: uppercase;
     margin-right: 10px;
   }
+`
+
+const CustomMenu = styled(MenuIcon)`
+
 `
