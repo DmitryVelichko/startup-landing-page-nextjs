@@ -13,6 +13,9 @@ function Header() {
         <a href="#">Model X</a>
         <a href="#">Model Y</a>
       </Menu>
+      <RightMenu>
+        <a href="#">Shop</a>
+      </RightMenu>
       
 
     </Container>
