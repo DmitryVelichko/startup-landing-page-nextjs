@@ -19,7 +19,9 @@ function Header() {
         <a href="#">Tesla Account</a>
         <CustomMenu />
       </RightMenu>
-      
+      <BurgerNav>
+        <li><a href='#'>Existing Inventory</a></li>
+      </BurgerNav>
 
     </Container>
   )
