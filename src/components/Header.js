@@ -21,6 +21,7 @@ function Header() {
       </RightMenu>
       <BurgerNav>
         <li><a href='#'>Existing Inventory</a></li>
+        <li><a href='#'>Used Inventory</a></li>
       </BurgerNav>
 
     </Container>
