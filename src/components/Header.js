@@ -76,3 +76,7 @@ const RightMenu = styled.div`
 const CustomMenu = styled(MenuIcon)`
   cursor: pointer;
 `
+
+const BurgerNav = styled.div`
+  position: fixed;
+`
