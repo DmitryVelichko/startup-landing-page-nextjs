@@ -101,3 +101,7 @@ const BurgerNav = styled.div`
     }
   }
 `
+
+const CustomClose = styled(CloseIcon)`
+
+`
