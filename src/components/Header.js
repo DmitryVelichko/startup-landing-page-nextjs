@@ -83,4 +83,6 @@ const BurgerNav = styled.div`
   bottom: 0;
   right: 0;
   background: white;
+  width: 300px;
+  z-index: 100;
 `
