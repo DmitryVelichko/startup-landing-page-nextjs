@@ -43,6 +43,7 @@ const Container = styled.div`
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 `
 
 const Menu = styled.div`
@@ -84,5 +85,5 @@ const BurgerNav = styled.div`
   right: 0;
   background: white;
   width: 300px;
-  z-index: 100;
+  z-index: 10000;
 `
