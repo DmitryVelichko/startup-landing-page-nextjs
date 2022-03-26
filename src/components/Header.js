@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import MenuIcon from '@material-ui/icons/Menu'
+import CloseIcon from '@material-ui/icons/Close'
 
 function Header() {
   return (
@@ -20,6 +21,7 @@ function Header() {
         <CustomMenu />
       </RightMenu>
       <BurgerNav>
+        <CustomClose />
         <li><a href='#'>Existing Inventory</a></li>
         <li><a href='#'>Used Inventory</a></li>
         <li><a href='#'>Trade-in</a></li>
