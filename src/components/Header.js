@@ -26,7 +26,6 @@ function Header() {
         <li><a href='#'>Cybertruck</a></li>
         <li><a href='#'>Roadster</a></li>
       </BurgerNav>
-
     </Container>
   )
 }
@@ -85,5 +84,6 @@ const BurgerNav = styled.div`
   right: 0;
   background: white;
   width: 300px;
-  z-index: 10000;
+  z-index: 16;
+  list-style: none;
 `
