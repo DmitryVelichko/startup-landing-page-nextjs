@@ -88,4 +88,6 @@ const BurgerNav = styled.div`
   list-style: none;
   padding: 20px;
   display: flex;
+  flex-direction: column;
+  text-align: start;
 `
