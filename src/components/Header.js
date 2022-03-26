@@ -79,4 +79,6 @@ const CustomMenu = styled(MenuIcon)`
 
 const BurgerNav = styled.div`
   position: fixed;
+  top: 0;
+  bottom: 0;
 `
