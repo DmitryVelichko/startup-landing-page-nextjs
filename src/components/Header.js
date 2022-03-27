@@ -6,7 +6,6 @@ import CloseIcon from '@material-ui/icons/Close'
 function Header() {
   const [burgerStatus, setBurgerStatus] = useState(false);
 
-
   return (
     <Container>
       <a>
@@ -21,7 +20,7 @@ function Header() {
       <RightMenu>
         <a href="#">Shop</a>
         <a href="#">Tesla Account</a>
-        <CustomMenu />
+        <CustomMenu onClick={() => setBurgerStatus(true)} />
       </RightMenu>
       <BurgerNav show={burgerStatus}>
         <CloseWrapper>
