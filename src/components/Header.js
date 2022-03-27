@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 
 function Header() {
+  const [burgerStatus, setBurgerStatus] = useState(false);
+
+
   return (
     <Container>
       <a>
@@ -20,7 +23,7 @@ function Header() {
         <a href="#">Tesla Account</a>
         <CustomMenu />
       </RightMenu>
-      <BurgerNav>
+      <BurgerNav show={burgerStatus}>
         <CloseWrapper>
           <CustomClose />
         </CloseWrapper>
