@@ -105,7 +105,7 @@ const BurgerNav = styled.div`
 `
 
 const CustomClose = styled(CloseIcon)`
-
+  cursor: pointer;
 `
 
 const CloseWrapper = styled.div`
