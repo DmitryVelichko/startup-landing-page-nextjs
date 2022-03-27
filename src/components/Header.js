@@ -24,7 +24,7 @@ function Header() {
       </RightMenu>
       <BurgerNav show={burgerStatus}>
         <CloseWrapper>
-          <CustomClose />
+          <CustomClose onClick={() => setBurgerStatus(false)}/>
         </CloseWrapper>
         <li><a href='#'>Existing Inventory</a></li>
         <li><a href='#'>Used Inventory</a></li>
